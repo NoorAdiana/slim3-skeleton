@@ -1,0 +1,28 @@
+{
+    "name": "slim3-skeleton",
+    "description": "Skeleton Slim Framework 3 project with Twig, Eloquent and more",
+    "license": "BSD-3-Clause",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Noor Adiana",
+            "email": "me@nooradiana.com",
+            "homepage": "http://nooradiana.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "php-di/slim-bridge": "^1.0",
+        "illuminate/database": "^5.2",
+        "slim/twig-view": "^2.1",
+        "respect/validation": "^1.1",
+        "slim/csrf": "^0.6.0",
+        "slim/flash": "^0.1.0",
+        "vlucas/phpdotenv": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "slim3-skeleton",
+  "homepage": "https://github.com/NoorAdiana/slim3-skeleton",
+  "description": "Sample Slim Framework 3 project with Twig, Eloquent and more",
+  "authors": [
+    "Noor Adiana"
+  ],
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/bower_components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4"
+  }
+}
